@@ -9,6 +9,7 @@ public static class TestData
 
     // Przykłady używane w promptach one-shot i few-shot (inne niż notatki testowe)
     public static IReadOnlyList<LabeledNote> PromptExamples => Load("prompt-examples.csv");
+    public static IReadOnlyList<LabeledNote> PromptSingleExample => Load("prompt-single-example.csv");
 
     private static IReadOnlyList<LabeledNote> Load(string fileName)
     {
